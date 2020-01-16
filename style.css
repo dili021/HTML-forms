@@ -20,3 +20,9 @@
     width: 85px;
     float: right;
 }
+.main-logo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 150px;
+}
