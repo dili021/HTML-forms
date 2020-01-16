@@ -1,11 +1,12 @@
 body{
     background-color: #eceef1;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
 }
 .header{
     display: flex;
     position: absolute;
     right: 0px;
-    background-color: white;
 }
 .header-text , .header-link{
   font-size: smaller;
@@ -46,7 +47,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 10px 15px;
+    padding: 0px 15px;
     
 }
 .form-header{
@@ -56,7 +57,6 @@ body{
     background-color: white;
     width: 400px;
     border: #c7c7c7 solid 1px;
-    padding: 10px;
     border-radius: 2px;
     
 }
@@ -74,17 +74,41 @@ label p{
 
 }
 input{
-    width: 350px;
+    width: 365px;
+    height: 30px;
 }
 .create-account{
     height: 40px;
-    width: 350px;
+    width: 370px;
     margin: 10px auto;
     position: relative;
     background-color: rgb(0, 132, 255);
     color: white;
     border-radius: 7px;
-    border-width: 0px;
+    border-width: 0px;    
+}
+.form-footer p{
+    font-size: x-small;
+    color: grey;
+    text-align: center;
+    font-style: italic;
+
+}
+.footer{
+    margin: 55px 15px;
+}
+.grey-footer{
+    padding: 15px;
+    background-color: #eceef1;
+    text-align: center;
+    
+}
+footer{
+    font-size: x-small;
+    padding-top: 25px;
+}
+.footer-links{
+    text-align: center;
 }
 
 
