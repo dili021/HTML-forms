@@ -1,3 +1,6 @@
+body{
+    background-color: #eceef1;
+}
 .header{
     display: flex;
     position: absolute;
@@ -14,6 +17,8 @@
     top: 10px;
     right: 10px;
     background-color: rgb(0, 132, 255);
+    border-radius: 7px;
+    border-width: 0px;
     color: white;
     border-color: black;
     border-radius: 4px;
@@ -26,8 +31,6 @@
     position: relative;
     justify-content: center;
     top: 150px;
-    background-color: red;
-    outline: black solid 1px;
     width: auto;
 }
 .logos{
@@ -36,7 +39,6 @@
     justify-content: center;
     top: 160px;
     margin-bottom: 180px;
-    background-color: green;
 }
 .form{
     display: flex;
@@ -44,7 +46,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     padding: 10px 15px;
     
 }
@@ -52,9 +53,38 @@
     text-align: center;
 }
 .form-box{
-    background-color: greenyellow;
+    background-color: white;
+    width: 400px;
+    border: #c7c7c7 solid 1px;
+    padding: 10px;
+    border-radius: 2px;
+    
 }
 fieldset{
     display: flex;
     flex-direction: column;
+    border-width: 0px;
 }
+input , label{
+    display: block;
+    height: auto;
+}
+label p{
+    font-size: x-small;
+
+}
+input{
+    width: 350px;
+}
+.create-account{
+    height: 40px;
+    width: 350px;
+    margin: 10px auto;
+    position: relative;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 7px;
+    border-width: 0px;
+}
+
+
