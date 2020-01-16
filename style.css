@@ -1,128 +1,141 @@
-body{
-    background-color: #eceef1;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-weight: 400;
+body {
+  background-color: #eceef1;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
-.header{
-    display: flex;
-    position: absolute;
-    right: 0px;
+
+.header {
+  display: flex;
+  position: absolute;
+  right: 0;
 }
-.header-text , .header-link{
+
+.header-text,
+.header-link {
   font-size: smaller;
-  
 }
-.header-button{
-    position: relative;
-    margin-left: 15px;
-    top: 20px;
-    right: 10px;
-    background-color: rgb(0, 132, 255);
-    border-radius: 7px;
-    border-width: 0px;
-    color: white;
-    border-color: black;
-    border-radius: 4px;
-    height: 35px;
-    width: 85px;
-    float: right;
-    cursor: pointer;
-}
-.main-logo{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    top: 150px;
-    width: auto;
-}
-.logos{
-    display: flex;
-    position: relative;
-    left: 44%;
-    top: 160px;
-    margin-bottom: 180px;
-    justify-content: space-between;
-    width: 150px;
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 15px;
-    
-}
-.form-header{
-    text-align: center;
-}
-.form-box{
-    background-color: white;
-    width: 400px;
-    border: #c7c7c7 solid 1px;
-    border-radius: 2px;
-    
-}
-fieldset{
-    display: flex;
-    flex-direction: column;
-    border-width: 0px;
-}
-input , label{
-    display: block;
-    height: auto;
-}
-span{
-    font-size: x-small;
 
+.header-button {
+  position: relative;
+  margin-left: 15px;
+  top: 20px;
+  right: 10px;
+  background-color: rgb(0, 132, 255);
+  border-radius: 7px;
+  border-width: 0;
+  color: white;
+  border-color: black;
+  height: 35px;
+  width: 85px;
+  float: right;
+  cursor: pointer;
 }
-input{
-    width: 365px;
-    height: 30px;
-}
-.create-account{
-    height: 40px;
-    width: 370px;
-    margin: 10px auto;
-    position: relative;
-    background-color: rgb(0, 132, 255);
-    color: white;
-    border-radius: 7px;
-    border-width: 0px; 
-    cursor: pointer;   
-}
-.form-footer p{
-    font-size: x-small;
-    color: grey;
-    text-align: center;
-    font-style: italic;
 
+.main-logo {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 150px;
+  width: auto;
 }
-.footer{
-    margin: 55px 15px;
+
+.logos {
+  display: flex;
+  position: relative;
+  left: 44%;
+  top: 160px;
+  margin-bottom: 180px;
+  justify-content: space-between;
+  width: 150px;
 }
-.grey-footer{
-    padding: 15px;
-    background-color: #eceef1;
-    text-align: center;
-    
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
 }
-footer{
-    font-size: x-small;
-    padding-top: 25px;
+
+.form-header {
+  text-align: center;
 }
+
+.form-box {
+  background-color: white;
+  width: 400px;
+  border: #c7c7c7 solid 1px;
+  border-radius: 2px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border-width: 0;
+}
+
+input,
+label {
+  display: block;
+  height: auto;
+}
+
+span {
+  font-size: x-small;
+}
+
+input {
+  width: 365px;
+  height: 30px;
+}
+
+.create-account {
+  height: 40px;
+  width: 370px;
+  margin: 10px auto;
+  position: relative;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  border-radius: 7px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+footer p {
+  text-align: center;
+}
+
+.form-footer p {
+  font-size: x-small;
+  color: grey;
+  text-align: center;
+  font-style: italic;
+}
+
+.footer {
+  margin: 55px 15px;
+}
+
+.grey-footer {
+  padding: 15px;
+  background-color: #eceef1;
+  text-align: center;
+}
+
+footer {
+  font-size: x-small;
+  padding-top: 25px;
+}
+
 .footer-links {
-
-    text-align: center;
-}
-.footer-links a{
-    margin: 10px;
-}
-footer p{
-    text-align: center;
-}
-h2{
-    color: gray ;
+  text-align: center;
 }
 
+.footer-links a {
+  margin: 10px;
+}
 
+h2 {
+  color: gray;
+}
