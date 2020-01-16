@@ -72,7 +72,7 @@ input , label{
     display: block;
     height: auto;
 }
-label p{
+span{
     font-size: x-small;
 
 }
