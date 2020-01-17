@@ -4,6 +4,7 @@ body {
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
+
 /* header*/
 .header {
   display: flex;
@@ -31,6 +32,7 @@ body {
   float: right;
   cursor: pointer;
 }
+
 /* end header */
 /* main logo and logos */
 .main-logo {
@@ -50,6 +52,7 @@ body {
   justify-content: space-between;
   width: 150px;
 }
+
 /* end main logo and logos*/
 /* form*/
 .form {
@@ -134,6 +137,7 @@ footer {
   font-size: x-small;
   padding-top: 25px;
 }
+
 /* end form*/
 /* footer*/
 .final-footer {
@@ -151,4 +155,5 @@ footer {
 footer p {
   text-align: center;
 }
+
 /* end footer */
