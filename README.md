@@ -15,7 +15,7 @@ Second exercise project in the HTML/CSS course of Microverse
 HTML & CSS
 
 # Live demo
-<a href="https://raw.githack.com/dili021/HTML-forms/development/index.html" target="blank" >Live demo </a>
+https://dili021.github.io/HTML-forms/
 
 # Getting started
 Feel free to clone & modify the repo.
