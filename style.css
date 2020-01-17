@@ -22,7 +22,7 @@ body {
   right: 10px;
   background-color: rgb(0, 132, 255);
   border-radius: 7px;
-  border-width: 0;
+  border-width: 1px;
   color: white;
   border-color: black;
   height: 35px;
@@ -48,7 +48,6 @@ body {
   justify-content: space-between;
   width: 150px;
 }
-
 
 .form {
   display: flex;
