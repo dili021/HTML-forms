@@ -107,14 +107,14 @@ footer p {
 }
 
 .form-footer p {
-  font-size: x-small;
+  font-size: small;
   color: grey;
   text-align: center;
   font-style: italic;
 }
 
 .footer {
-  margin: 55px 15px;
+  margin: 25px 15px;
 }
 
 .grey-footer {
@@ -123,9 +123,18 @@ footer p {
   text-align: center;
 }
 
+.grey-footer p {
+  font-size: smaller;
+}
+
 footer {
   font-size: x-small;
   padding-top: 25px;
+}
+
+.final-footer {
+  display: grid;
+  margin: 10px 350px;
 }
 
 .footer-links {
