@@ -1,9 +1,10 @@
+/*  body style*/
 body {
   background-color: #eceef1;
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
-
+/* header*/
 .header {
   display: flex;
   position: absolute;
@@ -30,7 +31,8 @@ body {
   float: right;
   cursor: pointer;
 }
-
+/* end header */
+/* main logo and logos */
 .main-logo {
   display: flex;
   position: relative;
@@ -48,7 +50,8 @@ body {
   justify-content: space-between;
   width: 150px;
 }
-
+/* end main logo and logos*/
+/* form*/
 .form {
   display: flex;
   flex-direction: column;
@@ -60,6 +63,10 @@ body {
 
 .form-header {
   text-align: center;
+}
+
+h2 {
+  color: gray;
 }
 
 .form-box {
@@ -102,10 +109,6 @@ input {
   cursor: pointer;
 }
 
-footer p {
-  text-align: center;
-}
-
 .form-footer p {
   font-size: small;
   color: grey;
@@ -131,7 +134,8 @@ footer {
   font-size: x-small;
   padding-top: 25px;
 }
-
+/* end form*/
+/* footer*/
 .final-footer {
   display: grid;
   margin: 10px 350px;
@@ -144,7 +148,7 @@ footer {
 .footer-links a {
   margin: 10px;
 }
-
-h2 {
-  color: gray;
+footer p {
+  text-align: center;
 }
+/* end footer */
