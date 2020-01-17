@@ -1,0 +1,163 @@
+/*  body style */
+body {
+  background-color: #eceef1;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* header */
+.header {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.header-text,
+.header-link {
+  font-size: smaller;
+}
+
+.header-button {
+  position: relative;
+  margin-left: 15px;
+  top: 20px;
+  right: 10px;
+  background-color: rgb(0, 132, 255);
+  border-radius: 7px;
+  border-width: 1px;
+  color: white;
+  border-color: black;
+  height: 35px;
+  width: 85px;
+  float: right;
+  cursor: pointer;
+}
+
+/* end header */
+
+/* main logo and logos */
+.main-logo {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 150px;
+  width: auto;
+}
+
+.logos {
+  display: flex;
+  position: relative;
+  left: 40%;
+  top: 160px;
+  margin-bottom: 180px;
+  justify-content: space-between;
+  width: 150px;
+}
+
+/* end main logo and logos */
+
+/* form */
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.form-header {
+  text-align: center;
+}
+
+h2 {
+  color: gray;
+}
+
+.form-box {
+  background-color: white;
+  width: 400px;
+  border: #c7c7c7 solid 1px;
+  border-radius: 2px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border-width: 0;
+}
+
+input,
+label {
+  display: block;
+  height: auto;
+}
+
+span {
+  font-size: x-small;
+}
+
+input {
+  width: 365px;
+  height: 30px;
+}
+
+.create-account {
+  height: 40px;
+  width: 370px;
+  margin: 10px auto;
+  position: relative;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  border-radius: 7px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+footer p {
+  text-align: center;
+}
+
+.form-footer p {
+  font-size: small;
+  color: grey;
+  text-align: center;
+  font-style: italic;
+}
+
+.footer {
+  margin: 25px 15px;
+}
+
+.grey-footer {
+  padding: 15px;
+  background-color: #eceef1;
+  text-align: center;
+}
+
+.grey-footer p {
+  font-size: smaller;
+}
+
+footer {
+  font-size: x-small;
+  padding-top: 25px;
+}
+
+/* end form */
+
+/* footer */
+.final-footer {
+  display: grid;
+  margin: 10px 350px;
+}
+
+.footer-links {
+  text-align: center;
+}
+
+.footer-links a {
+  margin: 10px;
+}
+
+/* end footer */
