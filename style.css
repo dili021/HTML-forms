@@ -34,6 +34,7 @@ body {
 }
 
 /* end header */
+
 /* main logo and logos */
 .main-logo {
   display: flex;
@@ -54,6 +55,7 @@ body {
 }
 
 /* end main logo and logos*/
+
 /* form*/
 .form {
   display: flex;
@@ -112,6 +114,10 @@ input {
   cursor: pointer;
 }
 
+footer p {
+  text-align: center;
+} 
+
 .form-footer p {
   font-size: small;
   color: grey;
@@ -139,6 +145,7 @@ footer {
 }
 
 /* end form*/
+
 /* footer*/
 .final-footer {
   display: grid;
@@ -151,9 +158,8 @@ footer {
 
 .footer-links a {
   margin: 10px;
+
 }
-footer p {
-  text-align: center;
-}
+
 
 /* end footer */
