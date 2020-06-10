@@ -8,6 +8,8 @@ https://github.com/javitocor
 # HTML-forms
 A clone of mint.com registration page
 
+![screenshot](/images/screenshot.png)
+
 # What it does?
 Second exercise project in the HTML/CSS course of Microverse
 
